@@ -15,3 +15,28 @@ h1{
     font-size: 130px;
     color: #f00;
 }
+
+h1 span{
+    display: inline-block;
+    animation: pulse 1s linear infinite;
+}
+@keyframes pulse {
+    from, to{
+        transform: scale(.5);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+img{
+    animation: slide 1.3s;
+}
+@keyframes slide {
+    from{
+        transform: translateX(-500%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
