@@ -9,10 +9,19 @@
     <!-- VUE -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
     <!-- STYLE -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+    <div id="app">
+        <h1>{{title}} &#x2764;</h1>
+        <img v-bind:src="image" alt="vue logo">
+    </div>
     
     <!-- JAVASCRIPT -->
     <script src="./js/script.js"></script>
