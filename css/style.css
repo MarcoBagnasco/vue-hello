@@ -16,6 +16,8 @@ h1{
     color: #f00;
 }
 
+/* ANIMATION */
+/* Heart */
 h1 span{
     display: inline-block;
     animation: pulse 1s linear infinite;
@@ -28,7 +30,7 @@ h1 span{
         transform: scale(1.2);
     }
 }
-
+/* Image */
 img{
     animation: slide 1.3s;
 }
